@@ -291,39 +291,39 @@ border: 1px solid salmon;
 }
 .Planogram {
   width: 97%;
-  background-color: red;
+  background-color: salmon;
 }
 .Analisa Produk {
   width: 87%;
-  background-color: red;
+  background-color: salmon;
 }
 .Peraancangan Konsep {
   width: 90%;
-  background-color: red;
+  background-color: salmon;
 }
 .Penentuan Catagori Item {
   width: 90%;
-  background-color: red;
+  background-color: salmon;
 }
 .Photoshop {
   width: 67%;
-  background-color: red;
+  background-color: salmon;
 }
 .Canva {
   width: 97%;
-  background-color: red;
+  background-color: salmon;
 }
 .MicrosoftWord {
   width: 97%;
-  background-color: red;
+  background-color: salmon;
 }
 .MicrosoftExcel {
   width: 93%;
-  background-color: red;
+  background-color: salmon;
 }
 .MicrosoftPowerPoin {
   width: 97%;
-  background-color: red;
+  background-color: salmon;
 }
 .Contact-me {
   width: 100% 0;
@@ -432,11 +432,12 @@ footer p:nth-child(2) {
 .wrapper h2 {
   background: #f1f0f0;
   color: #0a0909;
-  letter-spacing: 0.1rem;
-  padding: 0.5rem;
+  letter-spacing: 0.05rem;
+  padding: 0.3rem;
   cursor: default;
   font-size: 100%;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  width: 270px;
 }
 
 form,
@@ -488,4 +489,73 @@ button {
 .form-group input[type="email"]:focus,
 .form-group textarea:focus {
   border: solid rgb(228, 26, 4);
+}
+.end {
+  position: absolute;
+  color: #f1ebeb;
+  bottom: 65px;
+  font-size: 16px;
+}
+
+@media(min-widht: 170px) and (max-width: 570px) {
+  .body {
+    width: 90%;
+    margin: 0;
+  }
+} 
+  .user img {
+    width: 250px;
+    height: 250px;
+    margin: 0;
+    display: block;
+  }
+  .Contact {
+    width: 250px;
+    height: 250px;
+    margin: 0;
+    display: block;
+  }
+  @media(min-widht: 170px) and (max-width: 570px) {
+  .wrapper .post {
+    width: 250px;
+    height: 250px;
+    margin: 0;
+    display: block;
+  }
+}
+@media(min-widht: 170px) and (max-width: 4000px) {
+  .wrapper .post .form-group {
+    width: 250px;
+    height: 250px;
+    margin: 0;
+    display: block;
+  }
+}
+@media(min-widht: 170px) and (max-width: 570px) {
+  .Skill .box .card{
+    width: 100px;
+    height: 200px;
+    margin: 0;
+    display: block;
+    font-size:10px
+  }
+}
+@media(min-widht: 170px) and (max-width: 570px) {
+  .About{
+    width: 100px;
+    height: 200px;
+    margin: 0;
+    display: block;
+    font-size:10px
+  }
+}
+@media(min-widht: 170px) and (max-width: 570px) {
+  .About .About-Me img{
+    width: 100px;
+    height: 200px;
+    margin: 0;
+    display: block;
+    
+   
+  }
 }
